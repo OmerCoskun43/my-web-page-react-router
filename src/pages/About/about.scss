@@ -1,0 +1,40 @@
+.about {
+  margin-top: 12rem;
+  margin-bottom: 15rem;
+
+  h1 {
+    text-align: center;
+    color: aqua;
+    font-weight: bold;
+  }
+  p {
+    text-align: justify;
+    padding: 2rem;
+    text-indent: 4rem;
+  }
+}
+
+.about__down {
+  background-color: rgb(29, 28, 28);
+  padding-bottom: 3rem;
+
+  div {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: start;
+    background-color: rgb(77, 74, 74);
+    border-bottom: 5px solid aqua;
+    padding-left: 16px;
+
+    h5 {
+      font-family: "Passero One", sans-serif;
+      color: aqua;
+    }
+
+    p {
+      font-family: "Passero One", sans-serif;
+    }
+  }
+}

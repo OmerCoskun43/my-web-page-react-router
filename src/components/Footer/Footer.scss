@@ -1,0 +1,37 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  & .footer-alt {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+    & .icons {
+      display: flex;
+      gap: 15px;
+      & a i {
+        color: white;
+      }
+    }
+
+    & p {
+      color: white;
+      & span {
+        animation: animeD 2s ease infinite;
+      }
+    }
+  }
+}
+
+@keyframes animeD {
+  0% {
+    transform: rotate(0deg);
+    color: red;
+  }
+  100% {
+    transform: rotate(360deg);
+    color: yellow;
+  }
+}

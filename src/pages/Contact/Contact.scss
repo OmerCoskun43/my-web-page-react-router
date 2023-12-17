@@ -1,0 +1,26 @@
+.contact_container {
+  text-align: center;
+  padding-top: 12rem;
+
+  h2 {
+    color: aqua;
+    font-size: 2.2rem;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    cursor: pointer;
+
+    i {
+      font-size: 1.5rem;
+    }
+    h5 {
+      padding-top: 5px;
+      color: aqua;
+    }
+  }
+}

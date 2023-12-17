@@ -1,0 +1,19 @@
+@import "./scss/reset.scss";
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Grandstander:wght@100&family=Nova+Square&family=Orbitron&family=Passero+One&family=Rubik+Doodle+Shadow&family=Russo+One&family=Teko:wght@300&display=swap");
+
+* {
+  font-family: "Orbitron";
+  color: white;
+}
+
+body {
+  background-image: url("https://images6.alphacoders.com/411/411189.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
