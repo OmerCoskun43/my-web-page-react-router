@@ -35,3 +35,17 @@ footer {
     color: yellow;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .pAlt {
+    display: flex;
+    writing-mode: vertical-lr;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 15px;
+  }
+}

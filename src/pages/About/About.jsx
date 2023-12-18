@@ -13,12 +13,14 @@ const About = () => {
           developer that I can be and to contribute to the technology industry
           all that I know and can do. I am dedicated to perfecting my craft by
           learning from more seasoned developers, remaining humble, and
-          continuously making strides to learn all that I can about development.
-          While a student at both Georgia Southern and Georgia State
-          Universities, I studied Mathematics, and I believe that my
-          understanding of problem solving and complex algorithms are also
-          skills that have and will continue to contribute to my overall success
-          as a developer.
+          continuously making strides to learn all that I can about development.{" "}
+          <span className="aboutSpan">
+            While a student at both Georgia Southern and Georgia State
+            Universities, I studied Mathematics, and I believe that my
+            understanding of problem solving and complex algorithms are also
+            skills that have and will continue to contribute to my overall
+            success as a developer.
+          </span>
         </p>
       </div>
 

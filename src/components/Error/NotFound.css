@@ -16,3 +16,9 @@
     margin-top: 30rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .notFound button {
+    margin-top: 20rem;
+  }
+}

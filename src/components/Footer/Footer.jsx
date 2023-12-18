@@ -20,7 +20,7 @@ const Footer = () => {
             <i className="fa-brands fa-github fa-2x"></i>
           </a>
         </div>
-        <p>
+        <p className="pAlt">
           {" "}
           <span className="anime">Designed by CSKN &nbsp; </span> &copy;
           Copyright &nbsp; {new Date().toLocaleDateString()}{" "}

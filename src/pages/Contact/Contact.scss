@@ -24,3 +24,15 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .contact {
+    flex-direction: column;
+  }
+  .contact div {
+    padding: 0rem 3rem;
+  }
+  .contact div h5 {
+    padding-left: 10px;
+  }
+}

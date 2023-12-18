@@ -38,3 +38,20 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .about {
+    // margin-top: 12rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0px;
+  }
+
+  .aboutSpan {
+    display: none;
+  }
+
+  .about p {
+    padding: 0rem 3.3rem;
+    margin-bottom: 0rem;
+  }
+}
